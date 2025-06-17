@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "entryPoint": "./index.js",
+    "name": "appvacia",
+    "slug": "appvacia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "jsEngine": "jsc"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "jsEngine": "jsc",
+      "package": "com.anonymous.appvacia",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "newArchEnabled": true,
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c744a94a-d8dd-4847-b40e-d71037c2d1ff"
+      }
+    },
+    "plugins": [
+      
+    ]
+  }
+}
